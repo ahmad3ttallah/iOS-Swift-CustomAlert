@@ -23,7 +23,7 @@ class ViewController: UIViewController {
 
     @IBAction func showAlert(sender: AnyObject) {
         let alert:CustomAlertViewController = CustomAlertViewController()
-        alert.displayMessage("Title", message: "Message is here", iconName: "hope-sun.net", buttonLabels: ["OK", "CANCEL"], actions: [{ print("Ok Alert") }, { print("Cancel Alert") }])
+        alert.displayMessage("Title", message: "Message is here", iconName: "hope-sun.net", buttonLabels: [], actions: [])
     }
 
 }
